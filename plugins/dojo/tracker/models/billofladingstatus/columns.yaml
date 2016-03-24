@@ -1,0 +1,13 @@
+columns:
+    updated_date:
+        label: 'dojo.tracker::lang.tracker.updated_date_label'
+        type: date
+        searchable: true
+    location:
+        label: 'dojo.tracker::lang.tracker.location_label'
+        relation: location
+        select: name
+    status:
+        label: 'dojo.tracker::lang.tracker.status_label'
+        relation: status
+        select: name   	       

@@ -1,0 +1,10 @@
+name: Location
+form: $/dojo/tracker/models/location/fields.yaml
+modelClass: Dojo\Tracker\Models\Location
+defaultRedirect: dojo/tracker/location
+create:
+    redirect: 'dojo/tracker/location/update/:id'
+    redirectClose: dojo/tracker/location
+update:
+    redirect: dojo/tracker/location
+    redirectClose: dojo/tracker/location

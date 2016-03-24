@@ -1,0 +1,21 @@
+title = "Blog"
+url = "/blog/:page"
+layout = "default"
+description = "Blog"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post"
+==
+<section id="blog" class="container">
+	<div class="center">
+		<h2>Blogs</h2>
+		<p class="lead">Latest updates from KTL Logistics</p>
+	</div>
+	{% partial "blog/blog-posts" blogPosts=blogPosts %}
+</section>

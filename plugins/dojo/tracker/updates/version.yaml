@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Create Tables'
+    - create_locations_table.php
+    - create_statuses_table.php
+    - create_bill_of_ladings_table.php
+    - create_containers_table.php
+    - create_bill_of_lading_statuses_table.php
+    - seed_all_tables.php
+    

@@ -1,0 +1,12 @@
+fields:
+    container_number:
+        label: 'dojo.tracker::lang.tracker.container_number_label'
+        span: left
+        placeholder: 'dojo.tracker::lang.tracker.container_number_label'
+        disabled: 0
+        type: text
+    seal_number:
+        label: 'dojo.tracker::lang.tracker.seal_number_label'
+        span: left
+        placeholder: 'dojo.tracker::lang.tracker.seal_number_label'
+        type: text

@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'dojo.tracker::lang.tracker.location_name_label'
+        type: text
+        searchable: true
+        sortable: true

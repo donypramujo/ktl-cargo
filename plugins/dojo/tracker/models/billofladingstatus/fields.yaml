@@ -1,0 +1,22 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    updated_date:
+        label: 'dojo.tracker::lang.tracker.updated_date_label'
+        type: datepicker
+        mode: date
+        span: full
+    location:
+        label: 'dojo.tracker::lang.tracker.location_label'
+        span: full
+        type: recordfinder
+        list: $/dojo/tracker/models/location/columns.yaml
+        prompt: 'dojo.tracker::lang.tracker.location_record_finder_label'
+        nameFrom: name
+    status:
+        label: 'dojo.tracker::lang.tracker.status_label'
+        type: relation
+        nameFrom: name
+        span: full

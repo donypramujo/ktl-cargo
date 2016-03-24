@@ -1,0 +1,11 @@
+columns:
+    container_number:
+        label: 'dojo.tracker::lang.tracker.container_number_label'
+        type: text
+        searchable: true
+        sortable: true
+    seal_number:
+        label: 'dojo.tracker::lang.tracker.seal_number_label'
+        type: text
+        searchable: true
+        sortable: true

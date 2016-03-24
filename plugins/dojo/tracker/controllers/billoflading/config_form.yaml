@@ -1,0 +1,14 @@
+name: 'dojo.tracker::lang.tracker.bill_of_lading_title'
+modelClass: Dojo\Tracker\Models\BillOfLading
+form: $/dojo/tracker/models/billoflading/fields.yaml
+defaultRedirect: dojo/tracker/billoflading
+create:
+    title: 'dojo.tracker::lang.tracker.create_bill_of_lading_title'
+    redirect: 'dojo/tracker/billoflading/update/:id'
+    redirectClose: dojo/tracker/billoflading
+update:
+    title: 'dojo.tracker::lang.tracker.update_bill_of_lading_title'
+    redirect: dojo/tracker/billoflading
+    redirectClose: dojo/tracker/billoflading
+preview:
+    title: 'dojo.tracker::lang.tracker.preview_bill_of_lading_title'

@@ -1,0 +1,16 @@
+title: 'dojo.tracker::lang.tracker.bill_of_lading_title'
+modelClass: Dojo\Tracker\Models\BillOfLading
+list: $/dojo/tracker/models/billoflading/columns.yaml
+recordUrl: 'dojo/tracker/billoflading/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 50
+showSetup: true
+showCheckboxes: false
+showSorting: 1
+defaultSort:
+    column: updated_at
+    direction: desc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

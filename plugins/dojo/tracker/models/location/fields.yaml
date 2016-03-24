@@ -1,0 +1,6 @@
+fields:
+    name:
+        label: 'dojo.tracker::lang.tracker.location_name_label'
+        span: full
+        placeholder: 'dojo.tracker::lang.tracker.location_name_label'
+        type: text

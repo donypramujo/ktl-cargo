@@ -1,0 +1,21 @@
+containers:
+    label: 'dojo.tracker::lang.tracker.container_label'
+    deferredBinding: true
+    view:
+        list: $/dojo/tracker/models/container/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/dojo/tracker/models/container/fields.yaml
+        recordsPerPage: 20
+statuses:
+    label: 'dojo.tracker::lang.tracker.status_label'
+    deferredBinding: true
+    defaultSort:
+        column: updated_date
+        direction: desc
+    view:
+        list: $/dojo/tracker/models/billofladingstatus/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/dojo/tracker/models/billofladingstatus/fields.yaml
+        recordsPerPage: 20

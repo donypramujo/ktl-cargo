@@ -1,0 +1,30 @@
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blog/category"
+==
+{% set post = blogPost.post %}
+
+<div class="center">
+		<h2>{{ post.title }}</h2>	
+</div>
+		{% if post.featured_images.count %}
+				{% for image in post.featured_images %}
+					<img class="img-responsive img-blog" data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}" width="100%" alt="" />
+				{% endfor %}
+		{% endif %}
+
+		<br/>
+
+
+		<p><i class="fa fa-clock-o"></i>
+			Posted
+			{% if post.categories.count %} in
+				{% for category in post.categories %}
+					<a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+				{% endfor %}
+			{% endif %}
+			on {{ post.published_at|date('M d, Y') }}
+		</p>
+
+		<div class="blog-content" style="text-align:justify;text-justify:inter-word;">{{ post.content_html|raw }}</div>
+

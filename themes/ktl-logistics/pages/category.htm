@@ -1,0 +1,16 @@
+title = "Category"
+url = "/category/:slug/:page"
+layout = "default"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = 404
+postPage = "blog/post"
+==
+<section class="container">
+	{% partial 'blog/blog-post' blogPost=blogPost %}
+</section>

@@ -1,0 +1,12 @@
+list: $/dojo/tracker/models/status/columns.yaml
+modelClass: Dojo\Tracker\Models\Status
+title: Status
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 50
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'dojo/tracker/status/update/:id'

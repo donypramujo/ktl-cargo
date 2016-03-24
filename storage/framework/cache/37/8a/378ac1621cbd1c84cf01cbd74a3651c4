@@ -1,0 +1,108 @@
+1457629156s:6546:"a:6:{s:5:"mtime";i:1451292142;s:7:"content";s:3197:"==
+<div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url({{ 'assets/images/slider/bg1.jpg'|theme }})">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">KTL Cargo is one of the Leading International Freight Forwarding Company</h1>
+                                    <h2 class="animation animated-item-2">It was first established in 2006 in Indonesia.</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{'samples/about'|page}}">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url({{ 'assets/images/slider/bg2.jpg'|theme }})">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Experienced in the freight forwarding business.</h1>
+                                    <h2 class="animation animated-item-2">KTL Cargo is led by experienced players in the business and always strive for the best</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{'samples/about'|page}}">Read More</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url({{ 'assets/images/slider/bg3.jpg'|theme }})">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Any possible means</h1>
+                                    <h2 class="animation animated-item-2">KTL Cargo uses all kind of transportation to deliver your freight</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{'samples/about'|page}}">Read More</a>
+                                </div>
+                            </div>
+                      
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3193:"<div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url({{ 'assets/images/slider/bg1.jpg'|theme }})">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">KTL Cargo is one of the Leading International Freight Forwarding Company</h1>
+                                    <h2 class="animation animated-item-2">It was first established in 2006 in Indonesia.</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{'samples/about'|page}}">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url({{ 'assets/images/slider/bg2.jpg'|theme }})">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Experienced in the freight forwarding business.</h1>
+                                    <h2 class="animation animated-item-2">KTL Cargo is led by experienced players in the business and always strive for the best</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{'samples/about'|page}}">Read More</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url({{ 'assets/images/slider/bg3.jpg'|theme }})">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Any possible means</h1>
+                                    <h2 class="animation animated-item-2">KTL Cargo uses all kind of transportation to deliver your freight</h2>
+                                    <a class="btn-slide animation animated-item-3" href="{{'samples/about'|page}}">Read More</a>
+                                </div>
+                            </div>
+                      
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->";}";

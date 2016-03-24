@@ -1,0 +1,8 @@
+fields:
+    visitor_count:
+        label: 'dojo.visitorcounter::lang.visitorcounter.visitor_count_label'
+        span: auto
+        placeholder: 'dojo.visitorcounter::lang.visitorcounter.visitor_count_label'
+        default: 0
+        required: 1
+        type: number

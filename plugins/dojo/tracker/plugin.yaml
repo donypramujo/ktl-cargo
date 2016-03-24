@@ -1,0 +1,41 @@
+plugin:
+    name: 'dojo.tracker::lang.plugin.name'
+    description: 'dojo.tracker::lang.plugin.description'
+    author: Dojo
+    icon: oc-icon-ship
+    homepage: ''
+permissions:
+    dojo.tracker.access_bill_of_lading:
+        tab: 'dojo.tracker::lang.plugin.name'
+        label: 'dojo.tracker::lang.tracker.access_bill_of_lading_label'
+    dojo.tracker.access_location:
+        tab: 'dojo.tracker::lang.plugin.name'
+        label: 'dojo.tracker::lang.tracker.access_location_label'
+    dojo.tracker.access_status:
+        tab: 'dojo.tracker::lang.plugin.name'
+        label: 'dojo.tracker::lang.tracker.access_status_label'
+navigation:
+    tracker-menu:
+        label: 'dojo.tracker::lang.plugin.name'
+        url: dojo/tracker/billoflading
+        icon: icon-ship
+        permissions:
+            - dojo.tracker.access_bill_of_lading
+        sideMenu:
+            bill-of-lading-item:
+                label: 'dojo.tracker::lang.tracker.bill_of_lading_title'
+                url: /dojo/tracker/billoflading
+                icon: icon-ship
+                permissions:
+                    - dojo.tracker.access_bill_of_lading
+                attributes: {  }
+            location-menu-item:
+                label: 'dojo.tracker::lang.tracker.location_list_label'
+                url: /dojo/tracker/location
+                icon: icon-map-marker
+                permissions:
+                    - dojo.tracker.access_location
+            status-list-menu-item:
+                label: 'dojo.tracker::lang.tracker.status_list_label'
+                url: /dojo/tracker/status
+                icon: icon-exchange

@@ -1,0 +1,116 @@
+1457629156s:6228:"a:6:{s:5:"mtime";i:1450087140;s:7:"content";s:3038:"==
+<div class="container">
+           <div class="center wow fadeInDown">
+                <h2>Our Services</h2>
+				<!--<p class="lead"></p>-->
+           </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-ship"></i>
+                            <h2>Sea Freight</h2>
+                            <h3>We deliver large scale freight through the sea</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-plane"></i>
+                            <h2>Air Freight</h2>
+                            <h3>Delivers freight faster through the air</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-legal"></i>
+                            <h2>Customs Clearance</h2>
+                            <h3>Taking care of every legal aspects in customs</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-truck"></i>
+                            <h2>Trucking</h2>
+                            <h3>Delivering your freight accross cities by trucks</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-cubes"></i>
+                            <h2>Warehouse</h2>
+                            <h3>We offer temporary storage for your freight</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-home"></i>
+                            <h2>Door to Door Service</h2>
+                            <h3>We pick up your item from your door and deliver it right to the recipient's</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.services-->
+            </div><!--/.row-->    
+        </div><!--/.container-->";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3034:"<div class="container">
+           <div class="center wow fadeInDown">
+                <h2>Our Services</h2>
+				<!--<p class="lead"></p>-->
+           </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-ship"></i>
+                            <h2>Sea Freight</h2>
+                            <h3>We deliver large scale freight through the sea</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-plane"></i>
+                            <h2>Air Freight</h2>
+                            <h3>Delivers freight faster through the air</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-legal"></i>
+                            <h2>Customs Clearance</h2>
+                            <h3>Taking care of every legal aspects in customs</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-truck"></i>
+                            <h2>Trucking</h2>
+                            <h3>Delivering your freight accross cities by trucks</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-cubes"></i>
+                            <h2>Warehouse</h2>
+                            <h3>We offer temporary storage for your freight</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-home"></i>
+                            <h2>Door to Door Service</h2>
+                            <h3>We pick up your item from your door and deliver it right to the recipient's</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.services-->
+            </div><!--/.row-->    
+        </div><!--/.container-->";}";

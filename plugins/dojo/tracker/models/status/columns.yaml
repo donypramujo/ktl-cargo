@@ -1,0 +1,10 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: 'dojo.tracker::lang.tracker.status_name_label'
+        type: text
+        searchable: true
+        sortable: true

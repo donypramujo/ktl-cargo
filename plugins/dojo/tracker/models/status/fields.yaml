@@ -1,0 +1,10 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: 'dojo.tracker::lang.tracker.status_name_label'
+        span: full
+        placeholder: 'dojo.tracker::lang.tracker.status_name_label'
+        type: text

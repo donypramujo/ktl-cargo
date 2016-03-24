@@ -1,0 +1,10 @@
+plugin:
+    name: 'dojo.visitorcounter::lang.plugin.name'
+    description: 'dojo.visitorcounter::lang.plugin.description'
+    author: Dojo
+    icon: oc-icon-users
+    homepage: ''
+permissions:
+    dojo.visitorcounter.access_settings:
+        tab: 'dojo.visitorcounter::lang.plugin.name'
+        label: 'dojo.visitorcounter::lang.visitorcounter.access_settings_label'

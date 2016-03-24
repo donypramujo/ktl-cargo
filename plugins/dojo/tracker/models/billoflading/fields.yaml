@@ -1,0 +1,68 @@
+fields: {  }
+tabs:
+    fields:
+        bill_of_lading_number:
+            label: 'dojo.tracker::lang.tracker.bill_of_lading_number_label'
+            span: left
+            placeholder: 'dojo.tracker::lang.tracker.bill_of_lading_number_label'
+            type: text
+            tab: 'dojo.tracker::lang.tracker.bill_of_lading_title'
+        date_of_shipment:
+            label: 'dojo.tracker::lang.tracker.date_of_shipment_label'
+            span: auto
+            placeholder: 'dojo.tracker::lang.tracker.date_of_shipment_label'
+            type: datepicker
+            mode: date
+            tab: 'dojo.tracker::lang.tracker.bill_of_lading_title'
+        origin:
+            label: 'dojo.tracker::lang.tracker.origin_label'
+            span: left
+            type: recordfinder
+            list: $/dojo/tracker/models/location/columns.yaml
+            prompt: 'dojo.tracker::lang.tracker.location_record_finder_label'
+            nameFrom: name
+            tab: 'dojo.tracker::lang.tracker.bill_of_lading_title'
+        destination:
+            label: 'dojo.tracker::lang.tracker.destination_label'
+            span: right
+            type: recordfinder
+            list: $/dojo/tracker/models/location/columns.yaml
+            prompt: 'dojo.tracker::lang.tracker.location_record_finder_label'
+            nameFrom: name
+            tab: 'dojo.tracker::lang.tracker.bill_of_lading_title'
+        shipper:
+            label: 'dojo.tracker::lang.tracker.shipper_label'
+            span: left
+            type: text
+            placeholder: 'dojo.tracker::lang.tracker.shipper_label'
+            tab: 'dojo.tracker::lang.tracker.bill_of_lading_title'
+        consignee:
+            label: 'dojo.tracker::lang.tracker.consignee_label'
+            span: right
+            type: text
+            placeholder: 'dojo.tracker::lang.tracker.consignee_label'
+            tab: 'dojo.tracker::lang.tracker.bill_of_lading_title'
+        feeder_vessel:
+            label: 'dojo.tracker::lang.tracker.feeder_vessel_label'
+            span: auto
+            placeholder: 'dojo.tracker::lang.tracker.feeder_vessel_label'
+            type: text
+            tab: 'dojo.tracker::lang.tracker.vessel_label'
+        mother_vessel:
+            label: 'dojo.tracker::lang.tracker.mother_vessel_label'
+            span: auto
+            placeholder: 'dojo.tracker::lang.tracker.mother_vessel_label'
+            type: text
+            tab: 'dojo.tracker::lang.tracker.vessel_label'
+        containers:
+            label: 'dojo.tracker::lang.tracker.containers_label'
+            span: full
+            type: partial
+            path: field_containers
+            tab: 'dojo.tracker::lang.tracker.container_label'
+        statuses:
+            label: 'dojo.tracker::lang.tracker.status_label'
+            span: full
+            type: partial
+            path: field_statuses
+            tab: 'dojo.tracker::lang.tracker.status_label'

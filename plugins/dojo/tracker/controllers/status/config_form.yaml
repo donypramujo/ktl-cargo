@@ -1,0 +1,10 @@
+name: Status
+form: $/dojo/tracker/models/status/fields.yaml
+modelClass: Dojo\Tracker\Models\Status
+defaultRedirect: dojo/tracker/status
+create:
+    redirect: 'dojo/tracker/status/update/:id'
+    redirectClose: dojo/tracker/status
+update:
+    redirect: dojo/tracker/status
+    redirectClose: dojo/tracker/status

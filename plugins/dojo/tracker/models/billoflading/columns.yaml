@@ -1,0 +1,26 @@
+columns:
+    bill_of_lading_number:
+        label: 'dojo.tracker::lang.tracker.bill_of_lading_number_short_label'
+        type: text
+        searchable: true
+        sortable: true
+    date_of_shipment:
+        label: 'dojo.tracker::lang.tracker.date_of_shipment_label'
+        type: date
+        sortable: true        
+    origin:
+        label: 'dojo.tracker::lang.tracker.origin_label'
+        relation: origin
+        select: name
+    destination:
+        label: 'dojo.tracker::lang.tracker.destination_label'
+        relation: destination
+        select: name
+    shipper:
+        label: 'dojo.tracker::lang.tracker.shipper_label'
+        type: text
+        searchable: true
+    consignee:
+        label: 'dojo.tracker::lang.tracker.consignee_label'
+        type: text
+        searchable: true
