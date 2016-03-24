@@ -1,0 +1,2 @@
+1458797703s:234:"a:2:{s:5:"mtime";i:1456717039;s:7:"content";s:180:"<div class="g-recaptcha" data-sitekey="{{ settings.site_key }}"></div>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl={{ settings.lang }}"></script>";}";

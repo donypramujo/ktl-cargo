@@ -16,6 +16,9 @@ class BillOfLading extends Controller {
 	public $formConfig = 'config_form.yaml';
 	public $relationConfig = 'config_relation.yaml';
 	
+	public $requiredPermissions = [
+			'dojo.tracker.access_bill_of_lading'
+	];
 	
 	public function __construct() {
 		parent::__construct ();

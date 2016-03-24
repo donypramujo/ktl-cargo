@@ -1,0 +1,128 @@
+title = "Tracking Detail"
+url = "/tracking/detail" 
+layout = "default" 
+is_hidden = 1 
+==
+<?php
+
+use Dojo\Tracker\Models\BillOfLading;
+function onStart(){
+  $bl_no = post('bl_no');
+
+  $this['bl'] = BillOfLading::where('bill_of_lading_number',$bl_no)->first();
+
+
+}
+?>
+==
+<section>
+	<div class="container">
+		{% if bl is empty %}
+		<div class="center wow fadeInDown">
+			<h2>Data not found</h2>
+		</div>
+		{% endif%}
+		
+		{% if bl is not empty %}
+		<div class="row">
+			<div class="col-sm-6">
+				<form class="form-horizontal " action="#">
+					<div class="form-group">
+						<label class="col-sm-4 control-label">B/L Number</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">{{bl.bill_of_lading_number}}</p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 control-label">Shipper</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">{{bl.shipper}}</p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 control-label">Consignee</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">{{bl.consignee}}</p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 control-label">Date of Shipment</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">{{bl.date_of_shipment|date('d M Y')}}</p>
+						</div>
+					</div>
+				</form>
+
+			</div>
+			<div class="col-sm-6">
+				<form class="form-horizontal " action="#">
+					<div class="form-group">
+						<label class="col-sm-4 control-label">Origin</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">{{bl.origin.name}}</p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 control-label">Destination</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">{{bl.destination.name}}</p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 control-label">Mother Vessel</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">{{bl.mother_vessel}}</p>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 control-label">Feeder Vessel</label>
+						<div class="col-sm-8">
+							<p class="form-control-static">{{bl.feeder_vessel}}</p>
+						</div>
+					</div>
+				</form>
+
+			</div>
+		</div>
+
+		<hr>
+		<h2>Containers</h2>
+		<table class="table table-responsive table-striped table-hover">
+			<thead>
+				<tr>
+					<th>Container No.</th>
+					<th>Seal No.</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for container in bl.containers %}
+				<tr>
+					<td>{{container.container_number}}</td>
+					<td>{{container.seal_number}}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+
+		<h2>Status</h2>
+		<table class="table table-responsive table-striped table-hover">
+			<thead>
+				<tr>
+					<th>Location</th>
+					<th>Status</th>
+					<th>Updated Date</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for status in bl.statuses %}
+				<tr>
+					<td>{{status.location.name}}</td>
+					<td>{{status.status.name}}</td>
+					<td>{{status.updated_date|date('d M Y')}}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+		{% endif %}
+	</div>
+</section>

@@ -21,7 +21,7 @@ class Plugin extends PluginBase {
 						'order' => 1000,
 						'keywords' => 'dojo.visitorcounter::lang.plugin.name',
 						'permissions' => [ 
-								'moedjo.visitor_counter.access_settings' 
+								'dojo.visitorcounter.access_settings' 
 						] 
 				] 
 		];

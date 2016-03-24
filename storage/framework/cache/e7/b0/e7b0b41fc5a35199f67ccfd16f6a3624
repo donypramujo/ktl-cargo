@@ -1,4 +1,4 @@
-1458789084s:24163:"a:6:{s:5:"mtime";i:1452858230;s:7:"content";s:11987:"title = "About Us"
+1458797703s:23811:"a:6:{s:5:"mtime";i:1458795138;s:7:"content";s:11811:"title = "About Us"
 url = "/about-us"
 layout = "default"
 is_hidden = 0
@@ -22,13 +22,10 @@ is_hidden = 0
 
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                        <img src="{{ 'assets/images/slider_two.jpg'|theme }}" class="img-responsive" alt="">
                     </div>
                     <div class="item">
-                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                        <img src="{{ 'assets/images/slider_three.jpg'|theme }}" class="img-responsive" alt="">
                     </div>
                 </div>
 
@@ -202,7 +199,7 @@ is_hidden = 0
         </div>
         <!--/.container-->
 </section>
-<!--/about-us-->";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:8:"About Us";s:3:"url";s:9:"/about-us";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:11914:"<section id="about-us">
+<!--/about-us-->";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:8:"About Us";s:3:"url";s:9:"/about-us";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:11738:"<section id="about-us">
     <div class="container">
         <div class="center wow fadeInDown">
             <h2>We are KTL Cargo</h2>
@@ -221,13 +218,10 @@ is_hidden = 0
 
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                        <img src="{{ 'assets/images/slider_two.jpg'|theme }}" class="img-responsive" alt="">
                     </div>
                     <div class="item">
-                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                        <img src="{{ 'assets/images/slider_three.jpg'|theme }}" class="img-responsive" alt="">
                     </div>
                 </div>
 
