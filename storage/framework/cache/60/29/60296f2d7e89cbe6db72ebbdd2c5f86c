@@ -1,0 +1,14 @@
+1458789084s:682:"a:6:{s:5:"mtime";i:1449645800;s:7:"content";s:239:"title = "Post"
+url = "/blog/post/:slug"
+layout = "default"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blog/category"
+==
+<section class="container">
+	{% partial 'blog/blog-post' blogPost=blogPost %}
+</section>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:4:"Post";s:3:"url";s:16:"/blog/post/:slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:8:"blogPost";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:13:"blog/category";}}}s:4:"code";N;s:6:"markup";s:90:"<section class="container">
+	{% partial 'blog/blog-post' blogPost=blogPost %}
+</section>";}";

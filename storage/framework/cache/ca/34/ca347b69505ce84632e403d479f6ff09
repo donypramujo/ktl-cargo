@@ -1,0 +1,41 @@
+1458789084s:1754:"a:6:{s:5:"mtime";i:1457614270;s:7:"content";s:797:"[Dojo\VisitorCounter\Components\Component visitorCount]
+==
+<div class="container">
+      <div class="row">
+            <div class="col-sm-12">
+                Visitor Count : {% component 'visitorCount' %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+						&copy;  {{ "now"|date("Y") }} {{ this.theme.site_name }}. All Rights Reserved.
+					
+            </div>
+            <div class="col-sm-4">
+                <ul class="pull-right">
+                    <li><a href="{{ 'home'|page }}">Home</a></li>
+                    <li><a href="{{ 'samples/about'|page }}">About Us</a></li>
+                    <li><a href="{{ 'samples/contact'|page }}">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:1:{s:53:"Dojo\VisitorCounter\Components\Component visitorCount";a:0:{}}}s:4:"code";N;s:6:"markup";s:736:"<div class="container">
+      <div class="row">
+            <div class="col-sm-12">
+                Visitor Count : {% component 'visitorCount' %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+						&copy;  {{ "now"|date("Y") }} {{ this.theme.site_name }}. All Rights Reserved.
+					
+            </div>
+            <div class="col-sm-4">
+                <ul class="pull-right">
+                    <li><a href="{{ 'home'|page }}">Home</a></li>
+                    <li><a href="{{ 'samples/about'|page }}">About Us</a></li>
+                    <li><a href="{{ 'samples/contact'|page }}">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+</div>";}";

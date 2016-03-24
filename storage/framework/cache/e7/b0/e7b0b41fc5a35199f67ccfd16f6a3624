@@ -1,0 +1,404 @@
+1458789084s:24163:"a:6:{s:5:"mtime";i:1452858230;s:7:"content";s:11987:"title = "About Us"
+url = "/about-us"
+layout = "default"
+is_hidden = 0
+==
+<section id="about-us">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>We are KTL Cargo</h2>
+            <p class="lead" style="text-align: justify;">Established in 2006, KTL Cargo is an International Sea & Air Freight Forwarder, Project Transportation Specialist and Customs Brokerage Company. Our proven multimodal transportation routes and connections ensure international reach whatever your cargo and timeframe is.</p>
+        </div>
+
+        <!-- about us slider -->
+        <div id="about-slider">
+            <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators visible-xs">
+                    <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-slider" data-slide-to="1"></li>
+                    <li data-target="#carousel-slider" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                    </div>
+                </div>
+
+                <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+
+                <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+            <!--/#carousel-slider-->
+        </div>
+        <!--/#about-slider-->
+
+
+        <!-- Our Skill -->
+        <div class="skill-wrap clearfix">
+
+            <div class="center wow fadeInDown">
+                <h2>Our Work, Our Commitment</h2>
+                <p class="lead" style="text-align: justify;">
+                    Our primary objectives are to promote Total Quality Management and to maintain our success through steady investment in our service expansions and innovations in order to provide cost effective and reliable solutions to help our customers to reach their goals
+                    <br/>
+                    <br/> Our goal is to promote health, safety and environmental safety through out our organization.
+                    <br/>
+                    <br/> Our aim is to be the best customer service team in our profession. We strive to develop and maintain a first-class infrastructure to ensure employee satisfaction, which drives customer loyalty leading to sustained profit growth and creating improved company value as well as to exceed the expectations of our customers through total quality management.
+                    <br/>
+                    <br/> As a leading logistic service provider, we hold expertise in offering transportation and relocation of any kind of cargo across Indonesia and the world. Our well established global network as well as services of professionals provide us a strong & secure base for all the logistical needs. All our consignments are covered by insurance therefore assuring complete safety of goods without any liability. The broad portfolio of services include the following:
+                    <br/>
+                    <br/> 1. Sea freight (Domestics & international)
+                    <br/> 2. Air freight (Domestics & international)
+                    <br/> 3. Customs clearance
+                    <br/> 4. Trucking
+                    <br/> 5. Warehouse
+                    <br/> 6. Less Container Load (LCL)
+                    <br/> 7. Full Container Load (FCL)
+                    <br/> 8. DOOR TO DOOR
+                    <br/> 9. RED LINE HANDLING
+                    <br/>
+                    <br/> Our operational excellence provides the foundation for the integrated logistics solutions that we offer to our customers. The team of skilled professionals constantly monitor operational performance by maintaining a PDCA (Plan / Do / Check / Action) cycle for continuous improvements. We focus on the development of highly advanced logistics technology and the global training of personnel. By providing in-depth analyses of the transportation environment and of various other technical services, our mission is to add critical value to our logistics solutions.
+
+                    <br/>
+                    <br/> Our strong competitiveness relies on our proven track record of high quality operations, a tradition maintained throughout our growing global network.
+
+                    <br/>
+                    <br/> Why KTL...?
+                    <br/>
+                    <br/> Because we offer a convenient selection of standard freight management services, including Air, Sea, Road and Sea/Air to balance urgency and cost-effectiveness for your day-to-day shipments. Some of the factors that have helped us to evolve as the preferred logistics solution provider are as follows: Tailor-made logistics packages & computerized systems for handling the specific needs of our customers Well knit global network with presence across 50 countries Capability to handle export and import of full loads or consolidations, (including temperature-controlled containers for commodities like pharmaceuticals & perishable items) Global network of door to door services with main overseas partners Nationwide branch coverage throughout Indonesia. Flexible multi-modal capability combining FCL/LCL deep sea services with Air Cargo and overland network Stock control and warehousing/distribution programs as well as track and trace systems for meeting the import as well as export related needs.
+                </p>
+            </div>
+
+
+
+
+
+            <!-- our-team -->
+            <div class="team">
+                <div class="center wow fadeInDown">
+                    <h2>Our Winning Team</h2>
+                    <p class="lead">With the right personnel on the right position, we are sure to strive for the best</p>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="col-md-4 col-sm-6">
+                       <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-user fa-5x"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Anugrah</h4>
+                                    <h5>Director</h5>
+
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--/.media -->
+                            <p>The decision maker of the company.</p>
+                        </div>
+                    </div>
+                    <!--/.col-lg-4 -->
+
+
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        
+                    </div>
+                    <!--/.col-lg-4 -->
+                </div>
+                <!--/.row -->
+                <div class="row team-bar">
+                    <div class="first-one-arrow hidden-xs">
+                        <hr>
+                    </div>
+                    <div class="first-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-up"></i>
+                    </div>
+                    <div class="second-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="third-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-up"></i>
+                    </div>
+                    <div class="fourth-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+                <!--skill_border-->
+
+                <div class="row clearfix">
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-user fa-5x"></i>
+                                </div>
+
+                                <div class="media-body">
+                                    <h4>Indri Larasati</h4>
+                                    <h5>Finance</h5>
+
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--/.media -->
+                            <p>Taking care of the financing within the company</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-user fa-5x"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Jerry Gunawan</h4>
+                                    <h5>Marketing</h5>
+
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--/.media -->
+                            <p>Taking care of marketing of the company</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--section-->
+        </div>
+        <!--/.container-->
+</section>
+<!--/about-us-->";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:8:"About Us";s:3:"url";s:9:"/about-us";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:11914:"<section id="about-us">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>We are KTL Cargo</h2>
+            <p class="lead" style="text-align: justify;">Established in 2006, KTL Cargo is an International Sea & Air Freight Forwarder, Project Transportation Specialist and Customs Brokerage Company. Our proven multimodal transportation routes and connections ensure international reach whatever your cargo and timeframe is.</p>
+        </div>
+
+        <!-- about us slider -->
+        <div id="about-slider">
+            <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators visible-xs">
+                    <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-slider" data-slide-to="1"></li>
+                    <li data-target="#carousel-slider" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="{{ 'assets/images/slider_one.jpg'|theme }}" class="img-responsive" alt="">
+                    </div>
+                </div>
+
+                <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+
+                <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+            <!--/#carousel-slider-->
+        </div>
+        <!--/#about-slider-->
+
+
+        <!-- Our Skill -->
+        <div class="skill-wrap clearfix">
+
+            <div class="center wow fadeInDown">
+                <h2>Our Work, Our Commitment</h2>
+                <p class="lead" style="text-align: justify;">
+                    Our primary objectives are to promote Total Quality Management and to maintain our success through steady investment in our service expansions and innovations in order to provide cost effective and reliable solutions to help our customers to reach their goals
+                    <br/>
+                    <br/> Our goal is to promote health, safety and environmental safety through out our organization.
+                    <br/>
+                    <br/> Our aim is to be the best customer service team in our profession. We strive to develop and maintain a first-class infrastructure to ensure employee satisfaction, which drives customer loyalty leading to sustained profit growth and creating improved company value as well as to exceed the expectations of our customers through total quality management.
+                    <br/>
+                    <br/> As a leading logistic service provider, we hold expertise in offering transportation and relocation of any kind of cargo across Indonesia and the world. Our well established global network as well as services of professionals provide us a strong & secure base for all the logistical needs. All our consignments are covered by insurance therefore assuring complete safety of goods without any liability. The broad portfolio of services include the following:
+                    <br/>
+                    <br/> 1. Sea freight (Domestics & international)
+                    <br/> 2. Air freight (Domestics & international)
+                    <br/> 3. Customs clearance
+                    <br/> 4. Trucking
+                    <br/> 5. Warehouse
+                    <br/> 6. Less Container Load (LCL)
+                    <br/> 7. Full Container Load (FCL)
+                    <br/> 8. DOOR TO DOOR
+                    <br/> 9. RED LINE HANDLING
+                    <br/>
+                    <br/> Our operational excellence provides the foundation for the integrated logistics solutions that we offer to our customers. The team of skilled professionals constantly monitor operational performance by maintaining a PDCA (Plan / Do / Check / Action) cycle for continuous improvements. We focus on the development of highly advanced logistics technology and the global training of personnel. By providing in-depth analyses of the transportation environment and of various other technical services, our mission is to add critical value to our logistics solutions.
+
+                    <br/>
+                    <br/> Our strong competitiveness relies on our proven track record of high quality operations, a tradition maintained throughout our growing global network.
+
+                    <br/>
+                    <br/> Why KTL...?
+                    <br/>
+                    <br/> Because we offer a convenient selection of standard freight management services, including Air, Sea, Road and Sea/Air to balance urgency and cost-effectiveness for your day-to-day shipments. Some of the factors that have helped us to evolve as the preferred logistics solution provider are as follows: Tailor-made logistics packages & computerized systems for handling the specific needs of our customers Well knit global network with presence across 50 countries Capability to handle export and import of full loads or consolidations, (including temperature-controlled containers for commodities like pharmaceuticals & perishable items) Global network of door to door services with main overseas partners Nationwide branch coverage throughout Indonesia. Flexible multi-modal capability combining FCL/LCL deep sea services with Air Cargo and overland network Stock control and warehousing/distribution programs as well as track and trace systems for meeting the import as well as export related needs.
+                </p>
+            </div>
+
+
+
+
+
+            <!-- our-team -->
+            <div class="team">
+                <div class="center wow fadeInDown">
+                    <h2>Our Winning Team</h2>
+                    <p class="lead">With the right personnel on the right position, we are sure to strive for the best</p>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="col-md-4 col-sm-6">
+                       <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-user fa-5x"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Anugrah</h4>
+                                    <h5>Director</h5>
+
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--/.media -->
+                            <p>The decision maker of the company.</p>
+                        </div>
+                    </div>
+                    <!--/.col-lg-4 -->
+
+
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        
+                    </div>
+                    <!--/.col-lg-4 -->
+                </div>
+                <!--/.row -->
+                <div class="row team-bar">
+                    <div class="first-one-arrow hidden-xs">
+                        <hr>
+                    </div>
+                    <div class="first-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-up"></i>
+                    </div>
+                    <div class="second-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-down"></i>
+                    </div>
+                    <div class="third-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-up"></i>
+                    </div>
+                    <div class="fourth-arrow hidden-xs">
+                        <hr> <i class="fa fa-angle-down"></i>
+                    </div>
+                </div>
+                <!--skill_border-->
+
+                <div class="row clearfix">
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-user fa-5x"></i>
+                                </div>
+
+                                <div class="media-body">
+                                    <h4>Indri Larasati</h4>
+                                    <h5>Finance</h5>
+
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--/.media -->
+                            <p>Taking care of the financing within the company</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-md-offset-2">
+                        <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class="fa fa-user fa-5x"></i>
+                                </div>
+                                <div class="media-body">
+                                    <h4>Jerry Gunawan</h4>
+                                    <h5>Marketing</h5>
+
+                                    <ul class="social_icons">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--/.media -->
+                            <p>Taking care of marketing of the company</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--section-->
+        </div>
+        <!--/.container-->
+</section>
+<!--/about-us-->";}";
