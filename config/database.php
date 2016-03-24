@@ -56,7 +56,7 @@ return [
             'driver'    => 'mysql',
             'host'      => 'localhost',
             'port'      => 3306,
-            'database'  => 'ktl_logistics',
+            'database'  => 'ktl_cargo',
             'username'  => 'root',
             'password'  => '',
             'charset'   => 'utf8',
